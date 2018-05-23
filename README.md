@@ -1,11 +1,10 @@
 # Welcome-My-Github
 
-# 공동작업자 이동영
-
-# 안녕하세요 작업 시작합니다. 제가 할 작업은 다음과 같습니다.
-## 기초작업, 데이터베이스
-
-
-
-
+ - [알고리즘](/Algorithm/README.md)
+ - [전산기초](/CommonTheory/README.md)
+ - [프로젝트](/Project/README.md)
+ - [Swift-문법](/SwiftSyntax/README.md)
+ - [Swift-이론](/SwiftTheory/README.md)
+ - [인공지능](/AI/README.md)
+ - [빅데이터](/BigData/README.md)
 
