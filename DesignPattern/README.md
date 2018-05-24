@@ -1,4 +1,4 @@
-# 디자인 패턴
+# Design Pattern
 디자인 패턴이란? 프로그램 개발에서 자주 나타나는 과제를 해결하기 위한 방법 중 하나로, 과거의 소프트웨어 개발 과정에서 발견된 설계의 노하우를 축적하여 이름을 붙여, 이후에 재이용하기 좋은 형태로 특정의 규약을 묶어서 정리한 것입니. 알고리즘과 같이 프로그램 코드로 바로 변환될 수 있는 형태는 아니지만, 특정한 상황에서 구조적인 문제를 해결하는 방식을 설명해줍니다.
 
 
@@ -8,7 +8,7 @@
 + **행동 패턴**은 클래스와 객체들이 상호작용하는 방법 및 역할을 분담하는 방법과 관련된 패턴입니다.
 
 ### 생성 패턴
-1. [Singleton pattern(싱글톤 패턴)](singleton-pattern(싱글톤-패턴))
+1. [Singleton pattern(싱글톤 패턴)](#singleton-pattern(싱글톤-패턴))
 2. Abstract Factory(추상 팩토리 패턴)
 3. Builder pattern(빌더 패턴)
 4. Factory Method pattern(팩토리 메서드 패턴)
@@ -65,3 +65,6 @@ private init() { }
 Objective-C의 dispatch_once를 사용하지 않고 동작할 수 있는 것은 The lazy initialzer는 global에 처음 액세스할 때 실행되며 이를 위해서 dispatch_once가 초기화됩니다. 그럼 dispatch_once를 사용할 수 있습니다. initializer로 글로벌 변수를 선언하고 비공개로 표시하면 됩니다.
 ![](/assets/images/designPattern/singleton_1.png)
 [원문: Apple Swift Blog](https://developer.apple.com/swift/blog/?id=7)
+
+
+[뒤로](https://github.com/bugkingK/Welcome-My-Github)/[위로](#Design-Pattern)
